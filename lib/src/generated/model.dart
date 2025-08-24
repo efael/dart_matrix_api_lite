@@ -1391,7 +1391,21 @@ enum LoginType {
   @EnhancedEnumValue(name: 'm.login.password')
   mLoginPassword,
   @EnhancedEnumValue(name: 'm.login.token')
-  mLoginToken
+  mLoginToken,
+
+  // https://github.com/famedly/matrix-dart-sdk/blob/main/lib/matrix_api_lite/model/auth/authentication_types.dart
+  @EnhancedEnumValue(name: 'm.login.recaptcha')
+  mLoginRecaptcha,
+  @EnhancedEnumValue(name: 'm.login.token')
+  mLoginToken,
+  @EnhancedEnumValue(name: 'm.login.oauth2')
+  mLoginOauth2,
+  @EnhancedEnumValue(name: 'm.login.sso')
+  mLoginSso,
+  @EnhancedEnumValue(name: 'm.login.email.identity')
+  mLoginIdentity,
+  @EnhancedEnumValue(name: 'm.login.msisdn')
+  mLoginMsisdn,
 }
 
 ///
